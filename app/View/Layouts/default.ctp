@@ -22,7 +22,9 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo $cakeDescription ?>:
+		
+		<?php //echo $cakeDescription ?>
+		<?php echo "First cake php project" ?>:
 		<?php echo $this->fetch('title'); ?>
 	</title>
 	<?php
@@ -57,7 +59,7 @@ $cakeVersion = __d('cake_dev', 'CakePHP %s', Configure::version())
 				<?php echo $cakeVersion; ?>
 			</p>
 		</div>
-	</div>
+	</div> 
 	<?php echo $this->element('sql_dump'); ?>
 </body>
 </html>
